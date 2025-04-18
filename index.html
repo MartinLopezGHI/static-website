@@ -1,58 +1,248 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Jowe Boy&apos;s Website</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-	</head>
+<html lang="es">
 
-	<body>
-		<header>
-			<div class="row">
-				<div class="logo">
-					<img src="assets/logo-new.png" alt="oe_logo">
-				</div>
-				<ul class="main-nav">
-					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">SERVICES</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT</a></li>
-					<li><a href="">FAQ</a></li>
-				</ul>
-			</div>
-			<div class="hero">
-				<h1>Ready for Action?</h1>
-				<div class="button">
-					<a href="" class="btn btn-one">Watch Video</a>
-					<a href="" class="btn btn-two">Explore More</a>
-				</div>
-			</div>
-		</header>
-		<section class="service grid-container">
-		</section>
-		<section class="about grid-container">
-		</section>
-		<section class="blog grid-container">
-		</section>
-		<section class="contact grid-container">
-			<div class="contact-form grid-item">
-				<div class="contact-section-header">
-					<h2>Get in touch with us!</h2>
-				</div>
-				<form class="form">
-					<input type="text" name="fullname" placeholder="Fullname">
-					<input type="email" name="email" placeholder="Email Address">
-					<input type="number" name="phonenumber" placeholder="Phone Number">
-					<textarea class="subject" name="subject" placeholder="Your subject here..."></textarea>
-					<input class="button" type="submit" value="Submit">
-				</form>
-			</div>
-			<div class="contact-form grid-item">
-			</div>
-		</section>
-		<section class="faq grid-container">
-		</section>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Freelance</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Seccion Navbar -->
+<nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
+    <div class="container">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <img src="img/c.png" alt="circle" width="50px" height="50px">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobremi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#conocimientos">Conocimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactactame">Contactame</a>
+                </li>
+                <li class="nav-item">
+                    <img src="img/c.png" alt="circle" width="50px" height="50px">
+                </li>
+                <li class="nav-item">
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Seccion Header -->
+<header class="p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h1>Developer Freelance Product Designer</h1>
+                <p>Simplemente texto de relleno</p>
+                <button class="btn btn-primary">Contactame hoy</button>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div style="position: relative;">
+                    <img src="img/1.png" alt="Foto" class="img-fluid" style="border-radius: 10px;">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<hr style="border: 2px solid orange;">
+    <!-- Seccion Habilidades -->
+<section id="skills" class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Mis habilidades</h2>
+            <p>
+                QCIO
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <p>HTML5</p>
+            <p class="text-right">95%</p>
+            <div class="progress my-2">
+                <div class="progress-bar bg-warning" style="width: 95%;"></div>
+            </div>
+            <p>CSS3</p>
+            <p class="text-right">90%</p>
+            <div class="progress my-2">
+                <div class="progress-bar bg-warning" style="width: 90%;"></div>
+            </div>
+            <p>jQuery</p>
+            <p class="text-right">70%</p>
+            <div class="progress my-2">
+                <div class="progress-bar bg-warning" style="width: 70%;"></div>
+            </div>
+            <p>Wordpress</p>
+            <p class="text-right">85%</p>
+            <div class="progress my-2">
+                <div class="progress-bar bg-warning" style="width: 85%;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Seccion Servicios -->
+<section class="bg-dark text-black text-center p-5">
+    <h2 class="text-left">
+        <span style="color: orange;">Mis</span> 
+        <span style="color: white;">Servicios</span>
+    </h2>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/interfaz.png" class="card-img-top img-fluid" alt="Interfaz de usuario">
+                    <div class="card-body">
+                        <h5 class="card-title">Interfaz de usuario</h5>
+                        <p class="card-text">De esto se una banda</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/desarrollo.png" class="card-img-top img-fluid" alt="Desarrollo web">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo web</h5>
+                        <p class="card-text">De esto se bocha</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/marketing.png" class="card-img-top img-fluid" alt="Marketing digital">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing digital</h5>
+                        <p class="card-text">De esto se un monton</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/graphic.png" class="card-img-top img-fluid" alt="Graphic Design">
+                    <div class="card-body">
+                        <h5 class="card-title">Graphic Design</h5>
+                        <p class="card-text">De esto se bastante</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/logo.png" class="card-img-top img-fluid" alt="Logo Design">
+                    <div class="card-body">
+                        <h5 class="card-title">Logo Design</h5>
+                        <p class="card-text">De esto re contra se</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="img/atencion.png" class="card-img-top img-fluid" alt="Atención al cliente">
+                    <div class="card-body">
+                        <h5 class="card-title">Atención al cliente</h5>
+                        <p class="card-text">De esto seee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Seccion Trabajo Reciente -->
+    <section class="container my-5">
+        <h2>
+            <span style="color: orange;">Trabajo</span> 
+            <span style="color: black;">Reciente</span>
+        </h2>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>EDUCACION</h4>
+                <ul>
+                    <li>Harvard University</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>EXPERIENCIA</h4>
+                <ul>
+                    <li>2018 - 2020 Google</li>
+                    <li>2020 - 2023 Rockstar Games</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contacto -->
+    <section id="contact" class="bg-dark text-white p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contactame</h3>
+                    <br>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Telefono">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Escriba su consulta"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <br><br><br>
+                    <p>Teléfono</p>
+                    <p>+54 2613357350</p>
+                    <p>Email</p>
+                    <p>martinlopezghi@gmail.com</p>
+                    <p>Ubicacion</p>
+                    <p>Calle falsa 123, Mendoza, Argentina</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center p-4">
+        <p>© MARTIN LOPEZ GHISAURA 2024</p>
+        <div class="social-icons">
+            <a href="#"><img src="img/f.png" alt="Facebook" width="50px" height="50px"></a>
+            <a href="#"><img src="img/g.png" alt="GitHub" width="50px" height="50px"></a>
+            <a href="#"><img src="img/i.png" alt="Instagram" width="50px" height="50px"></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 
 </html>
+
